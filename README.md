@@ -5,13 +5,10 @@ Jigsaw Unintended Bias in Toxicity Classification
 This project aims to solve the Jigsaw Unintended Bias in Toxicity Classification problem from a Kaggle competition hosted by Jigsaw and Google's Conversation AI team. The objective of the challenge is to build machine learning models that can detect toxicity in online conversations while minimizing unintended bias, particularly with regard to identity terms.
 
 ## Competition Description
-In online platforms, toxicity is defined as anything that is rude, disrespectful, or likely to make someone leave a conversation. A major challenge is ensuring that models correctly identify toxic content while avoiding bias, especially when comments reference certain identity terms (e.g., "gay," "Muslim"). Previous models tended to predict a high likelihood of toxicity for comments containing identity terms, even when those comments were not inherently toxic. This bias stemmed from the fact that in the training data, certain identities were disproportionately mentioned in toxic ways.
-
 The challenge in this competition is to build a model that:
 - Recognizes toxicity in comments.
 - Minimizes unintended bias, particularly with respect to identity mentions.
 
-The dataset used for this competition includes comments labeled for both toxicity and identity mentions. The model evaluation is based on a custom metric designed to measure unintended bias.
 
 ## Key Concepts
 - **Toxicity Detection**: The task of identifying comments that are rude, harmful, or disrespectful, which can make people leave online conversations.
@@ -59,4 +56,3 @@ This project addresses the challenge of building fair and accurate models for to
 
 ## References
 - [Kaggle Competition: Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)
-- Conversation AI Team
