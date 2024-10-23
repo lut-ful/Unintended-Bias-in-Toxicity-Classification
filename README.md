@@ -1,7 +1,6 @@
 Jigsaw Unintended Bias in Toxicity Classification
 
 # Unintended Bias in Toxicity Classification
-[ comment: model training using full dataset in progress. Because of slow computation power it will take almost next 28 hours to train. But initial training was done using small number of data]
 
 ## Overview
 This project aims to solve the Jigsaw Unintended Bias in Toxicity Classification problem from a Kaggle competition hosted by Jigsaw and Google's Conversation AI team. The objective of the challenge is to build machine learning models that can detect toxicity in online conversations while minimizing unintended bias, particularly with regard to identity terms.
